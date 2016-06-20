@@ -6,22 +6,22 @@ This is a java application for sorting books. You can insert your own books and 
 
 ## Requirements
 
-* Java Runtime Environment (JRE) version 7 or latest;
+* Java Runtime Environment (JRE)  - Download athttp://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html;
 * Ubuntu 16.04 (you can run in another operation system, but you have to download the appropriate JRE).
 
 ## Run
-
+	Clone this repository;
+	
+	Download the JRE tar.gz package;
+	
 	Using the terminal as root:
 	$ sudo su
 	
-	Change to the directory of this repository you just cloned:
-	$ cd path/to/SortingService/
-	
-	Copy the jre jar file to the directory in which you want to install:
-	$ cp path/to/SortingService/jre-8u91-linux-x64.tar.gz /path/to/java/ (jre-8u91-linux-i586.tar.gz for Linux x86)
+	Change the JRE tar.gz file to the in which you want to install:
+	$ cd path/to/jre/jre-8u91-linux-x64.tar.gz /path/to/java/ (jre-8u91-linux-i586.tar.gz for Linux x86)
 	
 	Enter at the directory:
-	$ cd /path/you/want
+	$ cd /path/to/java
 	
 	Unpack the tarball and install Java:
 	$ tar zxvf jre-8u91-linux-x64.tar.gz
